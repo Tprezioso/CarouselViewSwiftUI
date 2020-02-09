@@ -16,6 +16,7 @@
 		9F154C4B23F061D500E9D012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F154C4923F061D500E9D012 /* LaunchScreen.storyboard */; };
 		9F154C5623F061D600E9D012 /* CarouselViewSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F154C5523F061D600E9D012 /* CarouselViewSwiftUITests.swift */; };
 		9F154C6123F061D600E9D012 /* CarouselViewSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F154C6023F061D600E9D012 /* CarouselViewSwiftUIUITests.swift */; };
+		9F154C6F23F0641E00E9D012 /* ImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F154C6E23F0641E00E9D012 /* ImageCarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9F154C5C23F061D600E9D012 /* CarouselViewSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselViewSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F154C6023F061D600E9D012 /* CarouselViewSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewSwiftUIUITests.swift; sourceTree = "<group>"; };
 		9F154C6223F061D600E9D012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F154C6E23F0641E00E9D012 /* ImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				9F154C3B23F061D500E9D012 /* AppDelegate.swift */,
 				9F154C3D23F061D500E9D012 /* SceneDelegate.swift */,
+				9F154C6E23F0641E00E9D012 /* ImageCarouselView.swift */,
 				9F154C4223F061D500E9D012 /* ContentView.swift */,
 				9F154C4423F061D500E9D012 /* Assets.xcassets */,
 				9F154C4923F061D500E9D012 /* LaunchScreen.storyboard */,
@@ -273,6 +276,7 @@
 				9F154C4123F061D500E9D012 /* CarouselViewSwiftUI.xcdatamodeld in Sources */,
 				9F154C3C23F061D500E9D012 /* AppDelegate.swift in Sources */,
 				9F154C4323F061D500E9D012 /* ContentView.swift in Sources */,
+				9F154C6F23F0641E00E9D012 /* ImageCarouselView.swift in Sources */,
 				9F154C3E23F061D500E9D012 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
