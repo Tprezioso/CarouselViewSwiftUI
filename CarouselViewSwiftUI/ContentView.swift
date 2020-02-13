@@ -11,7 +11,6 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ScrollView {
-            // Comment this section below to get the screen shot for first step
             GeometryReader { geometry in
                 ImageCarouselView(numberOfImages: 3) {
                     Image("husky-1")
@@ -31,7 +30,6 @@ struct ContentView: View {
                         .clipped()
                 }
             }.frame(height: 300, alignment: .center)
-            // Uncomment this section above for 3rd step
             
             VStack(alignment: .leading, spacing: 10) {
                 HStack {
